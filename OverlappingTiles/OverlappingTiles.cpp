@@ -65,12 +65,9 @@ int main()
     int N_y = 2;
     int overlap_original_sides = 0;// 32;
     int overlap_original_top_bottom = 0;// 24;
-    int n_X_tiles = 10; // 18;// 19;// 15;//10;
-    int n_Y_tiles = 30; // 17;// 21;// 15;// 16;
-
-    //String dirname = "images_to_crop"; //".\\images_to_crop";
-    //string dirname = "D:\\PaigeAI subtype 254\\FIBI Breast\\111\\Breast HVS-21-111 Serial H&E FIBI EDOF scan 1";
-    //string dirname = "D:\\PaigeAI subtype 254\\FIBI Breast\\Breast HVS-21-120 Serial H&E FIBI EDOF scan 1\\Breast HVS-21-120 Serial H&E FIBI EDOF scan 1";
+    int n_X_tiles = 10; // number of horizontal tiles
+    int n_Y_tiles = 30; // number of vertical tiles
+;
     //string dirname = "D:\\PaigeAI subtype 254\\FIBI Breast\\Breast HVS-21-123 section 2 Serial H&E FIBI EDOF scan 1\\Breast HVS-21-123 section 2 Serial H&E FIBI EDOF scan 1";
     string dirname = "C:\\Users\\Histo\\Documents\\ProstateTissue_for_CycleGAN\\187\\187";
     //string dirname = "C:\\Users\\Histo\\Documents\\Breast Tissue Scans for CycleGAN Project\\NonMalignant Breast Samples\\NonMalignant Breast Sample 3\\Non-Malignant Breast Sample 3 Raw FIBI Images";
